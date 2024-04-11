@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XXX - QR Dectector</title>
+    <link rel="stylesheet" href="../static/css/main.css">
+    <link rel="shortcut icon" href="../static/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>XXX - QR Dectector</h1>
+    <video id="video" autoplay></video>
+    {% with message = get_flashed_messages() %}
+        {{ message[0] }}
+    {% endwith %}
+    <script src="../static/javascripts/main.js"></script>
+</body>
+</html>
